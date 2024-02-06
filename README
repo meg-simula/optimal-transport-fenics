@@ -1,0 +1,16 @@
+# Dependencies:
+# Python3
+# fenicsproject (stable or dev)
+# numpy
+
+# fenicsproject run stable
+# fenicsproject run dev
+fenicsproject run quay.io/dolfinadjoint/pyadjoint:latest
+
+# Module files
+cases.py
+optimalflow.py
+
+# Run test script
+run_case.py
+
